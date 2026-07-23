@@ -29,7 +29,7 @@ An autocrafting setup consists of 3 things:
 Here is what happens:
 
 1.  Something creates a crafting request. This can be you in the terminal clicking on something autocraftable,
-    or an export bus or interface with a crafting card requesting one of the item they're set to export/stock.
+    or an export bus or interface with a crafting card requesting one of the items they're set to export/stock.
 
 *   (**IMPORTANT:** use whatever you have bound to "pick block" (usually middle-mouse) to request crafts of something you already have in stock, this can conflict with inventory sorting mods),
 
@@ -86,7 +86,7 @@ There are several different types of pattern for different things:
     the ingredients into an entire complex factory production chain which will sort out stuff, take in other ingredients from infinitely-producing
     farms, print the entirety of the Bee Movie script, the ME system does not care as long as it gets the result the pattern specifies. In fact,
     it doesn't even care if the ingredients are in any way related to the result. You could tell it "1 cherry wood planks = 1 nether star" and have
-    your wither farm kill a wither upon receiving a cherry wood planks and it would work.
+    your Wither farm kill a Wither upon receiving a cherry wood planks and it would work.
 
 Multiple <ItemLink id="pattern_provider" />s with identical patterns are supported and work in parallel. Additionally, you can have a pattern say,
 for example, 8 cobblestone = 8 stone instead of 1 cobblestone = 1 stone, and the pattern provider will insert 8 cobblestone into
@@ -124,7 +124,7 @@ Crafting CPUs are made out of:
 
 Each crafting CPU handles 1 request or job, so if you want to request both a calculation processor and 256 smooth stone at once, you need 2 CPU multiblocks.
 
-They can be set to handle requests from players, automation (export busses and interfaces), or both.
+They can be set to handle requests from players, automation (export buses and interfaces), or both.
 
 # Pattern Providers
 
